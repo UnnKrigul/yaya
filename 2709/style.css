@@ -150,6 +150,7 @@ article {
 	padding: 40px;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .article__img {
@@ -173,4 +174,24 @@ footer {
 	justify-content: center;
 	align-items: center;
 	background-color: #ccc;
+}
+
+			/*RESPONSIVE*/
+
+@media only screen and (max-width: 1200px) {
+	article {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	a {
+		width: 100px;
+	}
+
+	article {
+		flex-wrap: wrap;
+		border-top: 2px solid #000;
+		width: 80%
+	}
 }
